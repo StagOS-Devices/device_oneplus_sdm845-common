@@ -96,6 +96,7 @@ PRODUCT_COPY_FILES += \
 
 
 # Camera HIDL
+PRODUCT_PACKAGES += \
     vendor.oneplus.camera.CameraHIDL@1.0 \
     vendor.oneplus.camera.CameraHIDL@1.0-adapter-helper \
     vendor.oneplus.camera.CameraHIDL-V1.0-java
@@ -207,4 +208,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-sdm845-common.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-sdm845-common.xml
 
-
+PRODUCT_PACKAGES += oneplus-mock
+PRODUCT_BOOT_JARS += oneplus-mock
