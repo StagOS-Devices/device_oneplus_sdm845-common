@@ -202,8 +202,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-wfd.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-wfd.xml
 
 # Priv-App permission whitelist
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-sdm845-common.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-sdm845-common.xml
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/configs/privapp-permissions-sdm845-common.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-sdm845-common.xml
 
 PRODUCT_PACKAGES += oneplus-mock
 PRODUCT_BOOT_JARS += oneplus-mock
