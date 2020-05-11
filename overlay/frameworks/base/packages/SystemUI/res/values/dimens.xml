@@ -1,0 +1,4 @@
+<resources>
+    <!-- the padding on the start and the end of the statusbar -->
+    <dimen name="status_bar_extra_padding">8dp</dimen>
+</resources>
