@@ -464,3 +464,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
     vendor/qcom/opensource/commonsys/system/bt/conf
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/com.google.android.GoogleCamera.xml:system/etc/permissions/com.google.android.GoogleCamera.xml
