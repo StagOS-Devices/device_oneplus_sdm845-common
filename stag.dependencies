@@ -1,0 +1,11 @@
+[
+  {
+    "repository"  : "PotatoDevices/kernel_oneplus_sdm845",
+    "target_path" : "kernel/oneplus/sdm845",
+    "branch"	  : "dumaloo-release"
+  },
+  {
+    "repository"  : "vendor_oneplus",
+    "target_path" : "vendor/oneplus"
+  }
+]
