@@ -1,0 +1,27 @@
+[
+  {
+    "repository"  : "Evolution-X-Devices/kernel_oneplus_sdm845",
+    "target_path" : "kernel/oneplus/sdm845",
+    "branch"	  : "elle"
+  },
+  {
+    "repository"  : "TheMuppets/vendor_oneplus",
+    "target_path" : "vendor/oneplus",
+    "branch"      : "lineage-18.1"
+  },
+  {
+    "repository"  : "Evolution-X-Devices/device_oneplus_common",
+    "target_path" : "device/oneplus/common",
+    "branch"      : "ten"
+  },
+  {
+    "repository"  : "kdrag0n/proton-clang",
+    "target_path" : "prebuilts/clang/host/linux-x86/clang-proton",
+    "branch"      : "master"
+  },
+  {
+    "repository"  : "crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6778096",
+    "target_path" : "prebuilts/clang/host/linux-x86/clang-6778096",
+    "branch"      : "10.0"
+  }
+]
