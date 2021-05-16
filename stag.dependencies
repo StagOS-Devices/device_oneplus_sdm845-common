@@ -5,14 +5,14 @@
     "branch"	  : "elle"
   },
   {
-    "repository"  : "TheMuppets/vendor_oneplus",
+    "repository"  : "TheMuppets/proprietary_vendor_oneplus",
     "target_path" : "vendor/oneplus",
     "branch"      : "lineage-18.1"
   },
   {
     "repository"  : "Evolution-X-Devices/device_oneplus_common",
     "target_path" : "device/oneplus/common",
-    "branch"      : "ten"
+    "branch"      : "elle"
   },
   {
     "repository"  : "kdrag0n/proton-clang",
